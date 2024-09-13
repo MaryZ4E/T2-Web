@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script> <!-- Asegúrate de que el archivo script.js esté correctamente cargado -->
+    <style>
+        /* Centrar la tabla */
+        table {
+            margin: 0 auto; /* Centra la tabla */
+            border-collapse: collapse; /* Para eliminar el espacio entre bordes de celdas */
+        }
+
+        /* Estilo para las celdas de la tabla */
+        table, th, td {
+            border: 1px solid black;
+            text-align: center; /* Centrar el texto dentro de las celdas */
+        }
+
+        th, td {
+            padding: 10px; /* Agregar espacio dentro de las celdas */
+        }
+    </style>
+</head>
+
+<body>
+    <p style="text-align: center;" id="message">Hello</p>
+    <div style="text-align: center;">
+        <button id="btn1">Press...</button>
+    </div>
+
+    <hr><br><br><br>
+
+    <p style="text-align: center;" id="message2">Hello</p>
+    <div style="text-align: center;">
+        <button id="btn2">Send Request</button>
+    </div>
+
+    <hr><br><br>
+
+    <div style="text-align: center;">
+        <button id="btn3">Load Customer</button>
+    </div>
+
+    <br><br>    
+
+    <table id="tblCustomers" style="width: 80%; border: 1px solid #000;">
+        <thead>
+            <tr><th>ID</th><th>NAME</th><th>ADDRESS</th><th>PHONE</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>Juan</td><td>Av Tec #444</td><td>4656513</td></tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
